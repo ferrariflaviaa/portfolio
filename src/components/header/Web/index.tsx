@@ -1,15 +1,28 @@
+import { Dispatch, SetStateAction } from "react";
+import { RiMenu3Fill } from "react-icons/ri";
+
 import { ContainerHeader, NavHeader } from "./styles";
 
-export const Header = () => {
+interface IHeaderProps {
+  setMenuIsVisible: Dispatch<SetStateAction<boolean>>;
+}
+
+export const HeaderWeb = ({ setMenuIsVisible }: IHeaderProps) => {
   return (
     <ContainerHeader>
       <NavHeader>
-        <h3>Home</h3>
-        <h3>Habilidades</h3>
-        <h3>Projetos</h3>
-        <h3>Certificados</h3>
-        <h3>Contatos</h3>
+        <a href="#home">Home</a>
+        <a href="skills">Habilidades</a>
+        <a href="#project">Projetos</a>
+        <a href="#certificates">Certificados</a>
+        <a href="#contact">Contatos</a>
       </NavHeader>
+      <RiMenu3Fill
+        onClick={() => setMenuIsVisible(true)}
+        className="mobile"
+        size={40}
+        style={{ color: " #ffff " }}
+      />
     </ContainerHeader>
   );
 };
