@@ -11,9 +11,6 @@ export const CustomOptionIcon = styled.img<ICustomOptionIcon>`
 
 export const GlobalStyles = createGlobalStyle`
 
-
- 
-
   html{
     @media (max-width: 1080px){
       font-size: 93.75%;
@@ -99,10 +96,10 @@ export const CustomContainer = styled.div`
   display: flex;
   height: 100%;
   width: 100%;
-  padding: 0.6rem;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
-  background-color: #eaeaea;
+  background-color: ${({ theme }) => theme.COLORS.BGCOLOR1};
 `;
 
 export const CustomContent = styled.div`
@@ -111,10 +108,10 @@ export const CustomContent = styled.div`
   width: 100%;
   justify-content: center;
   background-color: #fff;
-  border-radius: 0.6rem;
-  -webkit-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.25);
+  /* border-radius: 0.6rem; */
+  /* -webkit-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 26px -8px rgba(0, 0, 0, 0.25); */
 `;
 
 export const CustomContentList = styled(CustomContent)`

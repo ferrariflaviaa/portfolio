@@ -20,7 +20,7 @@ export const Container = styled.section`
     height: 300px;
     flex-shrink: 0;
     border-radius: 300px;
-    background: var(--BGCOLOR1, #282a2d);
+    background-color: ${({ theme }) => theme.COLORS.BGCOLOR1};
   }
 
   .apresentation {
