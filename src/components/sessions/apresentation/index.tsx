@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillInstagram, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
 import photo from "../../../assets/photo.png";
-import { Container } from "./styles";
+import { CustomContainerApresentation } from "./styles";
 
 export const Apresentation = () => {
   const link = {
@@ -11,9 +11,9 @@ export const Apresentation = () => {
     github: "https://github.com/ferrariflaviaa",
   };
   return (
-    <Container>
+    <CustomContainerApresentation>
       <div className="ciclePhoto" id="home">
-        <img src={photo} alt="" />
+        <img src={photo} alt="Foto de perfil" />
       </div>
       <div className="apresentation">
         <h2>FLÁVIA FERRARI</h2>
@@ -36,6 +36,6 @@ export const Apresentation = () => {
           </a>
         </div>
       </div>
-    </Container>
+    </CustomContainerApresentation>
   );
 };

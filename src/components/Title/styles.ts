@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const CustomContenterTitle = styled.div`
+  width: 100%;
   display: flex;
-  /* justify-content: flex-start; */
+  justify-content: flex-end;
+  align-items: start;
   flex-direction: column;
-  align-items: flex-start;
   h1 {
     font-family: Inter;
     font-size: 50px;
@@ -12,8 +13,7 @@ export const CustomContenterTitle = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
   .horizontal-line {
-    width: 100%;
-    margin: 0 auto;
-    border: 2px solid #ccc;
+    width: 30%;
+    border: 4px solid #b1bac7;
   }
 `;

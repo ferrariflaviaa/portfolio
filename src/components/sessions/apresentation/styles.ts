@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 import imgApresentation from "../../../assets/background-1.png";
+import imgApresentation720 from "../../../assets/imgApresentation720.png";
 
-export const Container = styled.section`
+export const CustomContainerApresentation = styled.section`
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,5 +52,27 @@ export const Container = styled.section`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  @media (max-width: 1080px) {
+  }
+
+  @media (max-width: 720px) {
+    display: flex;
+    justify-content: start;
+    background-image: url(${imgApresentation720});
+    height: 420px;
+    .ciclePhoto {
+      margin-top: 10px;
+      width: 200px;
+      height: 200px;
+      img {
+        width: 160px;
+        height: 160px;
+      }
+    }
+    .apresentation {
+      height: 200px;
+    }
   }
 `;

@@ -9,7 +9,7 @@ export const About = () => {
   return (
     <CustomContainer>
       <Content>
-        <img src={photo} alt="" style={{ width: "286px", height: "286px" }} />
+        <img src={photo} alt="Foto de perfil" />
         <div className="about">
           <Title title="Sobre me" />
           <h4>
