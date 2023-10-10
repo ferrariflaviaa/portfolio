@@ -5,12 +5,12 @@ import { CustomContainerSkillBoard, CustomIcon } from "./styles";
 interface ISkillBoard {
   title: string;
   subtitle: string;
-  icon: ReactNode;
+  icon: string;
 }
 export const SkillBoard = ({ icon, subtitle, title }: ISkillBoard) => {
   return (
     <CustomContainerSkillBoard>
-      <CustomIcon>{icon}</CustomIcon>
+      <img src={icon} alt="" />
       <h2>{title}</h2>
       <h3>{subtitle}</h3>
     </CustomContainerSkillBoard>

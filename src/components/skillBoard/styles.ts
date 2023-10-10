@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const CustomContainerSkillBoard = styled.div`
   width: 455px;
-  height: 490px;
+  min-height: 490px;
+  max-height: 490px;
   border-radius: 10px;
   background: ${({ theme }) => theme.COLORS.BGCOLOR2};
-  margin: 1.5rem 0;
+  margin: 1.5rem 2rem;
   padding: 2rem;
 
   h2,
@@ -25,6 +26,6 @@ export const CustomContainerSkillBoard = styled.div`
     text-align: start;
   }
 `;
-export const CustomIcon = styled.text`
+export const CustomIcon = styled.img`
   color: ${({ theme }) => theme.COLORS.BGCOLOR3};
 `;
