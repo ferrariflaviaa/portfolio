@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-import { CustomContainerSkillBoard, CustomIcon } from "./styles";
+import { CustomContainerSkillBoard } from "./styles";
 
 interface ISkillBoard {
   title: string;

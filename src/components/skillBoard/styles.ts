@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const CustomContainerSkillBoard = styled.div`
-  width: 455px;
-  min-height: 490px;
-  max-height: 490px;
+  width: 400px;
+  min-height: 450px;
+  max-height: 450px;
   border-radius: 10px;
   background: ${({ theme }) => theme.COLORS.BGCOLOR2};
   margin: 1.5rem 2rem;
@@ -16,7 +16,7 @@ export const CustomContainerSkillBoard = styled.div`
   }
   h2 {
     font-family: Inter;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
   }
   h3 {
@@ -25,7 +25,17 @@ export const CustomContainerSkillBoard = styled.div`
     font-weight: 100;
     text-align: start;
   }
-`;
-export const CustomIcon = styled.img`
-  color: ${({ theme }) => theme.COLORS.BGCOLOR3};
+
+  @media (max-width: 645px) {
+    h2 {
+      font-size: 28px;
+    }
+  }
+
+  @media (max-width: 490px) {
+    width: 350px;
+    h2 {
+      font-size: 28px;
+    }
+  }
 `;
