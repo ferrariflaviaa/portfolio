@@ -1,5 +1,6 @@
 import { About } from "./about";
 import { Apresentation } from "./apresentation";
+import { Project } from "./project";
 import { Skill } from "./skill";
 
 export const Sessions = () => {
@@ -8,6 +9,7 @@ export const Sessions = () => {
       <Apresentation />
       <About />
       <Skill />
+      <Project />
     </>
   );
 };
