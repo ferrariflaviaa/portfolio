@@ -4,11 +4,12 @@ export const CustomContainerProjectPresentation = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   margin-top: 16px;
 
   img {
     width: 309px;
-    height: 268px;
+    height: 170px;
     flex-shrink: 0;
     border-radius: 12px;
     margin-right: 28px;
@@ -22,7 +23,7 @@ export const CustomContainerProjectPresentation = styled.div`
 
     h1 {
       font-family: Inter;
-      font-size: 2.5rem;
+      font-size: 1.6rem;
       font-weight: 300;
     }
 

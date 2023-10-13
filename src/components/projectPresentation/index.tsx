@@ -19,7 +19,7 @@ export const ProjectPresentation = ({
       <div className="about">
         <h1>{title}</h1>
         <h2>{about}</h2>
-        <a href={link}>
+        <a href={link} target="_blank">
           <img src={github} alt="icon do github" />
         </a>
       </div>

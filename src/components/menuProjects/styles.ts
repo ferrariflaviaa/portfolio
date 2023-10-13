@@ -25,15 +25,15 @@ export const CustomContainerMenuProject = styled.div<IProps>`
             color: ${({ theme }) => theme.COLORS.BGCOLOR3};
           }
         `
-      : type === "sistema"
+      : type === "siystem"
       ? css`
-          .sistema {
+          .siystem {
             color: ${({ theme }) => theme.COLORS.BGCOLOR3};
           }
         `
-      : type === "aplicativo"
+      : type === "application"
       ? css`
-          .aplicativo {
+          .application {
             color: ${({ theme }) => theme.COLORS.BGCOLOR3};
           }
         `

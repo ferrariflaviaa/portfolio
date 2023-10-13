@@ -15,10 +15,10 @@ export const MenuProject = ({ setType, type }: IMenuProject) => {
       <h2 className="site" onClick={() => handleColor("site")}>
         Sites
       </h2>
-      <h2 className="sistema" onClick={() => handleColor("sistema")}>
+      <h2 className="siystem" onClick={() => handleColor("siystem")}>
         Sistemas
       </h2>
-      <h2 className="aplicativo" onClick={() => handleColor("aplicativo")}>
+      <h2 className="application" onClick={() => handleColor("application")}>
         Aplicativos
       </h2>
     </CustomContainerMenuProject>
