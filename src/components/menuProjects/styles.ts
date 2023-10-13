@@ -12,9 +12,10 @@ export const CustomContainerMenuProject = styled.div<IProps>`
   h2 {
     color: ${({ theme }) => theme.COLORS.WHITE};
     font-family: Inter;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-right: 16px;
+    margin-top: 16px;
     cursor: pointer;
   }
 

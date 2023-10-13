@@ -58,7 +58,8 @@ export const Project = () => {
                   key={id}
                   about={about}
                   img={img}
-                  link={link}
+                  linkGithub={github}
+                  linkWeb={link}
                   title={title}
                 />
               );
