@@ -34,7 +34,13 @@ export const CarouselCertificates = ({ list }: ICarouselCertificates) => {
           return (
             <motion.div key={id}>
               <a href={link} target="_blank">
-                <img key={id} src={src} alt={alt} />;
+                <img
+                  key={id}
+                  src={src}
+                  alt={alt}
+                  style={{ width: 400, height: 220 }}
+                />
+                ;
               </a>
             </motion.div>
           );

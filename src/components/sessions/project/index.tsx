@@ -35,7 +35,7 @@ export const Project = () => {
 
   return (
     <CustomContainer>
-      <CustomContentProject>
+      <CustomContentProject id="project">
         <Title title="PROJETO" />
         <MenuProject setType={setType} type={type} />
         <motion.div

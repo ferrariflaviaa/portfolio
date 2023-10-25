@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const CustomContainerSkillBoard = styled.div`
-  width: 400px;
-  min-height: 450px;
-  max-height: 450px;
+  width: 350px;
+  min-height: 400px;
+  max-height: 400px;
   border-radius: 10px;
   background: ${({ theme }) => theme.COLORS.BGCOLOR2};
   margin: 1.5rem 2rem;
-  padding: 2rem;
+  padding: 1rem;
 
   h2,
   h3 {
@@ -21,7 +21,7 @@ export const CustomContainerSkillBoard = styled.div`
   }
   h3 {
     font-family: Cambria, serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 100;
     text-align: start;
   }

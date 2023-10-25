@@ -12,7 +12,7 @@ export const HeaderWeb = ({ setMenuIsVisible }: IHeaderProps) => {
     <ContainerHeader>
       <NavHeader>
         <a href="#home">Home</a>
-        <a href="skills">Habilidades</a>
+        <a href="#skills">Habilidades</a>
         <a href="#project">Projetos</a>
         <a href="#certificates">Certificados</a>
         <a href="#contact">Contatos</a>

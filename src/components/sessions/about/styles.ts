@@ -15,11 +15,11 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
-    h4 {
+    h3 {
       font-family: Cambria, serif;
       color: ${({ theme }) => theme.COLORS.WHITE};
       padding-top: 1rem;
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 200;
     }
   }

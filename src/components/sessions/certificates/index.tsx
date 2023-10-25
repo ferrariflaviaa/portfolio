@@ -21,7 +21,7 @@ export const Certificates = () => {
 
   return (
     <CustomContainer>
-      <CustomContentCertificates>
+      <CustomContentCertificates id="certificates">
         <Title title="Certificados Devolpment" />
         <CarouselCertificates list={listCertificatesDevolpment} />
         <Title title="Certificados Ciberseguraça" />
