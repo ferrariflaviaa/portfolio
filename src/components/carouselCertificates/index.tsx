@@ -33,7 +33,7 @@ export const CarouselCertificates = ({ list }: ICarouselCertificates) => {
           const { id, link, alt, src } = item;
           return (
             <motion.div key={id}>
-              <a href={link}>
+              <a href={link} target="_blank">
                 <img key={id} src={src} alt={alt} />;
               </a>
             </motion.div>

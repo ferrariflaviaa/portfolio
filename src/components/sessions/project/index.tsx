@@ -15,7 +15,7 @@ export const Project = () => {
   const [type, setType] = useState<string>("site");
   const [list, setList] = useState<IListSites[]>([]);
   const carousel = useRef<HTMLDivElement | null>(null);
-  const [height, setHeight] = useState<number>(500);
+  const [height, setHeight] = useState<number>(800);
 
   useEffect(() => {
     if (carousel.current) {

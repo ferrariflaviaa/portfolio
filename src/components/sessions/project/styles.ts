@@ -9,7 +9,7 @@ export const CustomContentProject = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 500px;
+    height: 800px;
     overflow-y: auto;
     scroll-behavior: smooth;
     cursor: grab;

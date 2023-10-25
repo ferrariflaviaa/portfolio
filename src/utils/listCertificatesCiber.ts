@@ -1,3 +1,5 @@
+import ccna from "../assets/couser/ccna.png";
+import solyd from "../assets/couser/solyd.jpg";
 import severus from "../assets/projetc/severus.png";
 
 interface IListCertificatesCiber {
@@ -9,27 +11,15 @@ interface IListCertificatesCiber {
 const listCertificatesCiber: IListCertificatesCiber[] = [
   {
     id: 1,
-    alt: "SeverusTech",
-    src: severus,
-    link: "https://severustech.netlify.app/",
+    alt: "Ccna",
+    src: ccna,
+    link: "https://www.credly.com/badges/74843bfe-acb5-45d5-ade5-f70e4d8cb94e?source=linked_in_profile",
   },
   {
     id: 2,
-    alt: "SeverusTech",
-    src: severus,
-    link: "https://severustech.netlify.app/",
-  },
-  {
-    id: 3,
-    alt: "SeverusTech",
-    src: severus,
-    link: "https://severustech.netlify.app/",
-  },
-  {
-    id: 4,
-    alt: "SeverusTech",
-    src: severus,
-    link: "https://severustech.netlify.app/",
+    alt: "Solyd Offensive Security",
+    src: solyd,
+    link: "",
   },
 ];
 
