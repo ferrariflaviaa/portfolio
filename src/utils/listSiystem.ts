@@ -1,41 +1,14 @@
-import severus from "../assets/projetc/severus.png";
+import callingSystem from "../assets/projetc/callingSystem.png";
 
 const listSiystem = [
   {
     id: 1,
     title: "SeverusTech",
-    img: severus,
+    img: callingSystem,
     about:
-      "Este website foi desenvolvido com o propósito de apresentar e divulgar minha startup, que se concentra no desenvolvimento de software. Para a criação deste projeto, utilizamos tecnologias avançadas, incluindo ReactJS e TypeScript.",
-    link: "https://severustech.netlify.app/",
-    github: "",
-  },
-  {
-    id: 2,
-    title: "SeverusTech",
-    img: severus,
-    about:
-      "Este website foi desenvolvido com o propósito de apresentar e divulgar minha startup, que se concentra no desenvolvimento de software. Para a criação deste projeto, utilizamos tecnologias avançadas, incluindo ReactJS e TypeScript.",
-    link: "https://severustech.netlify.app/",
-    github: "",
-  },
-  {
-    id: 3,
-    title: "SeverusTech",
-    img: severus,
-    about:
-      "Este website foi desenvolvido com o propósito de apresentar e divulgar minha startup, que se concentra no desenvolvimento de software. Para a criação deste projeto, utilizamos tecnologias avançadas, incluindo ReactJS e TypeScript.",
-    link: "https://severustech.netlify.app/",
-    github: "",
-  },
-  {
-    id: 4,
-    title: "SeverusTech",
-    img: severus,
-    about:
-      "Este website foi desenvolvido com o propósito de apresentar e divulgar minha startup, que se concentra no desenvolvimento de software. Para a criação deste projeto, utilizamos tecnologias avançadas, incluindo ReactJS e TypeScript.",
-    link: "https://severustech.netlify.app/",
-    github: "",
+      "O sistema de chamados é uma plataforma desenvolvida com o objetivo de aprimorar a gestão de solicitações, tornando o processo de atendimento mais eficiente. Ao centralizar e organizar as solicitações, proporciona uma visão completa das demandas, permitindo uma alocação de recursos mais eficaz e um acompanhamento mais detalhado das tarefas.",
+    link: "",
+    github: "https://lnkd.in/dC5tMEeY",
   },
 ];
 
