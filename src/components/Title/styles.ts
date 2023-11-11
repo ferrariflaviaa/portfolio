@@ -1,6 +1,9 @@
 import styled from "styled-components";
 
-export const CustomContenterTitle = styled.div`
+interface IProps {
+  size?: number;
+}
+export const CustomContenterTitle = styled.div<IProps>`
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -13,7 +16,7 @@ export const CustomContenterTitle = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
   .horizontal-line {
-    width: 30%;
+    width: ${({ size }) => (size ? `${size}%` : "100%")};
     border: 4px solid #b1bac7;
   }
 

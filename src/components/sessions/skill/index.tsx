@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
-import { AiFillMobile } from "react-icons/ai";
 
 import { CustomContainer } from "../../../styles/globalStyles";
 import { typeSkill } from "../../../utils/typeSkill";
@@ -21,7 +20,7 @@ export const Skill = () => {
   return (
     <CustomContainer>
       <CustomContentSkill>
-        <Title title="Skill-Set" />
+        <Title title="Skill-Set" size={12} />
         <motion.div
           ref={carousel}
           className="carousel"

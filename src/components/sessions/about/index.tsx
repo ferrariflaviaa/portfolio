@@ -11,7 +11,7 @@ export const About = () => {
       <Content>
         <img src={photo} alt="Foto de perfil" />
         <div className="about">
-          <Title title="Sobre mim" />
+          <Title title="Sobre mim" size={25} />
           <h3>
             Eu sou Flávia, uma profissional de tecnologia com formação em
             Análise e Desenvolvimento. Trabalho no desenvolvimento web e mobile

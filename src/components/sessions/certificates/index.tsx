@@ -22,9 +22,9 @@ export const Certificates = () => {
   return (
     <CustomContainer>
       <CustomContentCertificates id="certificates">
-        <Title title="Certificados Devolpment" />
+        <Title title="Certificados Devolpment" size={0} />
         <CarouselCertificates list={listCertificatesDevolpment} />
-        <Title title="Certificados Ciberseguraça" />
+        <Title title="Certificados Ciberseguraça" size={0} />
         <CarouselCertificates list={listCertificatesCiber} />
       </CustomContentCertificates>
     </CustomContainer>

@@ -36,7 +36,7 @@ export const Project = () => {
   return (
     <CustomContainer>
       <CustomContentProject id="project">
-        <Title title="PROJETO" />
+        <Title title="PROJETO" size={12} />
         <MenuProject setType={setType} type={type} />
         <motion.div
           ref={carousel}

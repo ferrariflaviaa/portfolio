@@ -12,6 +12,7 @@ export const CustomContainerApresentation = styled.section`
   background-repeat: no-repeat;
   width: 100%;
   height: 600px;
+  background-size: cover;
 
   .ciclePhoto {
     display: flex;
@@ -55,6 +56,11 @@ export const CustomContainerApresentation = styled.section`
   }
 
   @media (max-width: 1080px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+    height: 500px;
   }
 
   @media (max-width: 720px) {
