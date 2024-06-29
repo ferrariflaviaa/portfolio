@@ -32,7 +32,7 @@ export const CustomContainerProjectPresentation = styled.div<IProps>`
     }
 
     h1 {
-      font-family: Inter;
+      font-family: Poppins;
       font-size: 1.6rem;
       font-weight: 300;
     }
@@ -40,7 +40,7 @@ export const CustomContainerProjectPresentation = styled.div<IProps>`
     h2 {
       font-size: 1.2rem;
       font-weight: 200;
-      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-family: Poppins;
       margin: 10px 0;
     }
 
@@ -82,7 +82,7 @@ export const CustomContainerProjectPresentation = styled.div<IProps>`
     @media (max-width: 650px) {
       width: 60%;
       h1 {
-        font-family: Inter;
+        font-family: Poppins;
         font-size: 1.4rem;
         font-weight: 300;
       }
@@ -90,7 +90,7 @@ export const CustomContainerProjectPresentation = styled.div<IProps>`
       h2 {
         font-size: 1rem;
         font-weight: 200;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-family: Poppins;
         margin: 10px 0;
       }
     }

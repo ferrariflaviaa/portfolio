@@ -1,7 +1,7 @@
 import eSports from "../assets/projetc/eSports.png";
-import guiaPress from "../assets/projetc/guiaPress.png";
 import primeFlix from "../assets/projetc/primeFlix.png";
 import severus from "../assets/projetc/severus.png";
+import tudaochefsfood from "../assets/projetc/tudaochefsfood.png";
 
 interface IListSites {
   id: number;
@@ -23,6 +23,15 @@ const listSites: IListSites[] = [
   },
   {
     id: 2,
+    title: "TudaoChefsFood",
+    img: tudaochefsfood,
+    about:
+      " lanchonete Tudaochefsfood, localizada em Muriaé. O projeto priorizou as cores e a identidade visual do estabelecimento, contando a história única da lanchonete. A página inclui o cardápio completo, informações detalhadas sobre a localização e um link direto para o WhatsApp, facilitando o contato e os pedidos dos clientes.",
+    link: "https://tudaochefsfood.com.br/",
+    github: "",
+  },
+  {
+    id: 3,
     title: "Prime-Flix",
     img: primeFlix,
     about:
@@ -31,23 +40,13 @@ const listSites: IListSites[] = [
     github: "https://github.com/ferrariflaviaa/Prime-Flix",
   },
   {
-    id: 3,
+    id: 4,
     title: "eSports",
     img: eSports,
     about:
       "Aplicação web projetada para facilitar a busca de parceiros de jogo para entusiastas de videogames. Este projeto inclui uma lista de jogos pré-definida e oferece a funcionalidade de criar anúncios para encontrar novos companheiros de equipe. Além disso, desenvolvemos um banco de dados personalizado para dar suporte a esta plataforma.",
     link: "",
     github: "https://github.com/ferrariflaviaa/NLW-eSports",
-  },
-
-  {
-    id: 5,
-    title: "GuiaPress",
-    img: guiaPress,
-    about:
-      "Mini blog com um painel de administração que inclui funcionalidades de login, além de permitir a criação, edição e exclusão de artigos, categorias e usuários.",
-    link: "",
-    github: "https://github.com/ferrariflaviaa/GuiaPress",
   },
 ];
 

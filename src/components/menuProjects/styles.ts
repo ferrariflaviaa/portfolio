@@ -11,7 +11,7 @@ export const CustomContainerMenuProject = styled.div<IProps>`
   flex-direction: row;
   h2 {
     color: ${({ theme }) => theme.COLORS.WHITE};
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 1.8rem;
     font-weight: 500;
     margin-right: 16px;

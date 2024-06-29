@@ -15,12 +15,12 @@ export const CustomContainerSkillBoard = styled.div`
     margin-top: 16px;
   }
   h2 {
-    font-family: Inter;
+    font-family: Poppins;
     font-size: 30px;
     font-weight: 600;
   }
   h3 {
-    font-family: Cambria, serif;
+    font-family: Poppins, serif;
     font-size: 18px;
     font-weight: 100;
     text-align: start;

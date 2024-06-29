@@ -16,7 +16,7 @@ export const Content = styled.div`
     flex-direction: column;
     padding-left: 1rem;
     h3 {
-      font-family: Cambria, serif;
+      font-family: Poppins, serif;
       color: ${({ theme }) => theme.COLORS.WHITE};
       padding-top: 1rem;
       font-size: 1.2rem;
